@@ -1,10 +1,12 @@
-# Student Result Calculator 🎓
+# Student Result Calculator
 
 A web-based **Student Performance Analyzer** developed using **HTML, CSS, and JavaScript**.  
 This project calculates student results, displays grades and pass/fail status, and shows a graphical analysis on a separate result page.  
 It also demonstrates proper usage of **Git and GitHub** including multiple commits, branching, and merging.
 
 ---
+## 🔗 Live Demo
+https://prashant-prashant.github.io/student-result-calculator/
 
 ## 📌 Project Features
 
