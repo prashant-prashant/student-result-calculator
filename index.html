@@ -1,21 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Student Result Calculator</title>
+    <meta charset="UTF-8">
+    <title>Student Performance Analyzer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Student Result Calculator</h1>
+<div class="dashboard">
+    <h1>Student Performance Analyzer</h1>
+    <p class="subtitle">B.Tech Mini Project</p>
 
-    <input type="number" id="sub1" placeholder="Subject 1">
-    <input type="number" id="sub2" placeholder="Subject 2">
-    <input type="number" id="sub3" placeholder="Subject 3">
+    <div class="student-info">
+        <input type="text" id="name" placeholder="Student Name">
+        <input type="text" id="roll" placeholder="Roll Number">
+    </div>
 
-    <button onclick="calculate()">Check Result</button>
+    <div id="subjects" class="subjects">
+        <input type="number" class="mark" placeholder="Subject 1">
+        <input type="number" class="mark" placeholder="Subject 2">
+        <input type="number" class="mark" placeholder="Subject 3">
+        <input type="number" class="mark" placeholder="Subject 4">
+        <input type="number" class="mark" placeholder="Subject 5">
+    </div>
 
-    <h2 id="result"></h2>
+    <button onclick="submitData()">Analyze Performance</button>
+</div>
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
