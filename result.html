@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result Analysis</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="dashboard">
+    <h1>Result Analysis</h1>
+    <p class="subtitle">Student Performance Summary</p>
+
+    <!-- RESULT CARD -->
+    <div id="resultCard" class="result-card">
+        <h3 id="studentDetails"></h3>
+        <p id="total"></p>
+        <p id="percentage"></p>
+        <p id="grade"></p>
+        <p id="status"></p>
+    </div>
+
+    <!-- GRAPH -->
+    <div class="chart-box">
+        <canvas id="marksChart"></canvas>
+    </div>
+
+    <button onclick="goBack()">⬅ Back to Input</button>
+</div>
+
+<script src="result.js"></script>
+</body>
+</html>
