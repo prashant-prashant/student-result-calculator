@@ -1,114 +1,154 @@
-# Student Result Calculator
+📘 Student Result Calculator
+📌 Project Overview
 
-A web-based **Student Performance Analyzer** developed using **HTML, CSS, and JavaScript**.  
-This project calculates student results, displays grades and pass/fail status, and shows a graphical analysis on a separate result page.  
-It also demonstrates proper usage of **Git and GitHub** including multiple commits, branching, and merging.
+Student Result Calculator is a web-based academic project developed using HTML, CSS, and JavaScript.
+The application allows users to enter student details and subject marks, calculates academic performance, and displays results including total marks, percentage, grade, and pass/fail status.
 
----
-## 🔗 Live Demo
+The result is displayed on a separate analysis page along with a graphical representation of subject-wise marks.
+The project also demonstrates practical usage of Git and GitHub, including version control, branching, merging, tagging, and deployment.
+
+🎯 Problem Formulation
+Problem Statement
+
+Manual calculation and analysis of student results is:
+
+Time-consuming
+
+Error-prone
+
+Not scalable for multiple subjects
+
+Existing Challenges
+
+Lack of automation in result calculation
+
+No visual performance analysis
+
+Difficulty in maintaining result records
+
+Justification
+
+This problem was chosen because:
+
+It is academically relevant
+
+It represents a real-world educational use case
+
+It allows practical implementation of frontend and Git concepts
+
+✨ Novelty in the Project
+
+Separate input and result pages for better user experience
+
+Use of localStorage to transfer data between pages
+
+Graphical performance analysis using Chart.js
+
+Feature-based Git branching strategy
+
+Live deployment using GitHub Pages
+
+🚀 Features of the Project
+
+Student name and roll number input
+
+Supports 5 or more subjects
+
+Automatic calculation of:
+
+Total Marks
+
+Percentage
+
+Grade
+
+Pass/Fail status
+
+Separate result analysis page
+
+Bar graph for subject-wise marks
+
+Clean and professional UI
+
+🛠️ Technologies Used
+
+HTML – Page structure
+
+CSS – Styling and layout
+
+JavaScript – Logic and validation
+
+Chart.js – Graphical visualization
+
+Git – Version control
+
+GitHub – Repository hosting & deployment
+
+Project Structure (With Branching)
+student-result-calculator/
+│
+├── index.html        # Student input page
+├── result.html       # Result & performance analysis page
+├── style.css         # Common styling for all pages
+├── script.js         # Input page logic (marks, validation, storage)
+├── result.js         # Result page logic (percentage, grade, graph)
+├── README.md         # Project documentation
+│
+└── .git/             # Git version control metadata
+
+Git Branching Strategy
+master (or main)
+│
+├── feature-ui
+│     └── UI and styling enhancements
+│
+└── feature-result-page
+      └── Result page and graph implementation
+
+=Commit History (git log --oneline style)
+a1f3c2d  Initial project structure created
+963cfee  Added HTML structure
+4e45299  Added basic CSS styling
+e5e4599  Added JavaScript logic for result calculation
+5838d0b  UI enhancement in feature branch
+6c46d07  Added separate result page with graph visualization
+f9197a9  Updated UI styles and data handling for multi-page flow
+4625104  Updated index page to support multi-page result flow
+dc88478  Added color indication for pass and fail status
+90c06e7  Added README documentation
+94625df  Final merge and tagged project version v1.0
+
+🔖 Git Tags Used
+
+v1.0 – Stable project version
+
+submission-v1 – Submission-ready version
+
+final-project – Final academic version
+
+📌 Purpose: Tags are used to mark important and final versions of the project.
+
+
+🌐 Live Deployment
+
+The project is deployed using GitHub Pages.
+
+🔗 Live Link:
+
 https://prashant-prashant.github.io/student-result-calculator/
 
-## 📌 Project Features
+📌 Learning Outcomes
 
-- Student name and roll number input
-- Supports **5 or more subjects** (scalable design)
-- Automatic calculation of:
-  - Total Marks
-  - Percentage
-  - Grade (A+, A, B, C, D, F)
-  - Pass / Fail Status
-- **Separate Result Analysis Page**
-- Graphical visualization of marks using **Chart.js**
-- Clean and professional UI
-- Data transfer between pages using **localStorage**
-- Git best practices (commits, branching, merging)
+Hands-on experience with frontend technologies
 
----
+Practical understanding of Git commands
 
-## 🛠️ Technologies Used
+Feature-based branching and merging
 
-- **HTML** – Structure of the application  
-- **CSS** – Styling and responsive layout  
-- **JavaScript** – Logic, validation, and data handling  
-- **Chart.js** – Graphical representation of marks  
-- **Git** – Version control  
-- **GitHub** – Project hosting and collaboration  
+Version tagging
 
----
-
-## 📂 Project Structure
-
-student-result-calculator/
-│── index.html # Input page
-│── result.html # Result & analysis page
-│── style.css # Styling
-│── script.js # Input page logic
-│── result.js # Result page logic
-│── README.md
-
-yaml
-Copy code
-
----
-
-## 🚀 How to Run the Project
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/student-result-calculator.git
-Open the project folder:
-
-bash
-Copy code
-cd student-result-calculator
-Open index.html in any web browser
-(or use Live Server in VS Code)
-
-🔄 Git Workflow Used
-Initialized Git repository using git init
-
-Created multiple commits for incremental development
-
-Used feature branches for new functionality
-
-Merged feature branches into main branch
-
-Pushed final code to GitHub
-
-🎯 Learning Outcomes
-Understanding frontend web development basics
-
-Handling multi-page navigation
-
-Using localStorage for data transfer
-
-Creating dynamic charts
-
-Practical experience with Git and GitHub
-
-Writing clean and maintainable code
-
-📌 Future Enhancements
-Add dynamic “Add Subject” button
-
-Store multiple student results
-
-Export result as PDF
-
-Dark mode toggle
-
-Convert to React application
-
-👨‍🎓 Academic Use
-This project is suitable for:
-
-B.Tech Mini Project
-
-College Practical / Assignment
-
-Git & GitHub Practice
-
-Frontend Learning Project
+Live project deployment
 
 📜 License
-This project is created for educational purposes.
+
+This project is created for educational purposes only.
