@@ -9,80 +9,53 @@ The project also demonstrates practical usage of Git and GitHub, including versi
 
 🎯 Problem Formulation
 Problem Statement
-
 Manual calculation and analysis of student results is:
-
 Time-consuming
-
 Error-prone
-
 Not scalable for multiple subjects
-
 Existing Challenges
-
 Lack of automation in result calculation
-
 No visual performance analysis
-
 Difficulty in maintaining result records
-
 Justification
-
 This problem was chosen because:
-
 It is academically relevant
-
 It represents a real-world educational use case
-
 It allows practical implementation of frontend and Git concepts
 
+
+
 ✨ Novelty in the Project
-
 Separate input and result pages for better user experience
-
 Use of localStorage to transfer data between pages
-
 Graphical performance analysis using Chart.js
-
 Feature-based Git branching strategy
-
 Live deployment using GitHub Pages
 
+
 🚀 Features of the Project
-
 Student name and roll number input
-
 Supports 5 or more subjects
-
 Automatic calculation of:
-
 Total Marks
-
 Percentage
-
 Grade
-
 Pass/Fail status
-
 Separate result analysis page
-
 Bar graph for subject-wise marks
-
 Clean and professional UI
 
+
+
 🛠️ Technologies Used
-
 HTML – Page structure
-
 CSS – Styling and layout
-
 JavaScript – Logic and validation
-
 Chart.js – Graphical visualization
-
 Git – Version control
-
 GitHub – Repository hosting & deployment
+
+
 
 Project Structure (With Branching)
 student-result-calculator/
@@ -137,16 +110,13 @@ The project is deployed using GitHub Pages.
 
 https://prashant-prashant.github.io/student-result-calculator/
 
+
+
 📌 Learning Outcomes
-
 Hands-on experience with frontend technologies
-
 Practical understanding of Git commands
-
 Feature-based branching and merging
-
 Version tagging
-
 Live project deployment
 
 📜 License
